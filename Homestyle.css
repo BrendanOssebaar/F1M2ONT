@@ -107,64 +107,32 @@ body{
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    margin:0;
 }
-
 h1{
     font-size: 250%;
     margin-bottom: 20px;
     border-bottom: 2px solid black;
     font-weight: 500;
 }
-
 figure{
     margin-bottom: 40px;
 }
-
 article{
     margin: 0 auto;
     width: 60vw;
     padding: 40px;
 }
-
 img{
     width: 100%;
-    border-radius: 5px;
+    border-radius: 40px;
     transition-duration: 0.3s;
-}
-
-img:hover{
-    transform: scale(1.05);
-}
-
-p{
-    margin-bottom: 40px;
-}
-
-p:last-of-type{
-    margin-bottom: 0;
 }
 button{
     margin: auto;
     padding: 20px;
-       
+   
 }
-figcaption{
-    font-size: 80%;
-    font-style: italic;
-    font-weight: 400;
-}
-
-audio{
-    display: block;
-    margin-top: 20px;
-}
-
-video{
-    width: 100%;
-    margin-bottom: 40px;
-    border-radius: 5px;
-}
-
 nav{
     background: #222831;
     color: white;
@@ -173,6 +141,9 @@ nav{
     justify-content: space-around;
     padding-left: 200px;
     padding-right: 200px;
+}
+button:hover{
+    background-color: Red;
 }
 footer{
     background: #222831;
@@ -188,7 +159,6 @@ footer > p{
     margin: 0 auto;
     padding-left: 40px;
 }
-
 @media screen and (max-width:1000px) {
     article{
         width: 80vw;
